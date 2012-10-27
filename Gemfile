@@ -5,10 +5,10 @@ gem 'rails', '3.2.8'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-# Change following
-# gem 'sqlite3'
-# to this:
-gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
+# Change to following
+gem 'sqlite3'
+# from this:
+# gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 
 gem 'json'
 
@@ -40,3 +40,6 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug'
+
+# Avoid bad rake version
+gem "rake", "!= 0.9.0"

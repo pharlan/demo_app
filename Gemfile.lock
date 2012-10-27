@@ -107,6 +107,7 @@ DEPENDENCIES
   jquery-rails
   json
   rails (= 3.2.8)
+  rake (!= 0.9.0)
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)
