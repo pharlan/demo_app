@@ -12,4 +12,11 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
+/log/**/*
+/log/*
 /tmp
+/tmp/*
+
+# Ignore these
+*~
+.DS_Store
